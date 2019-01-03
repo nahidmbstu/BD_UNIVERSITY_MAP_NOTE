@@ -73,7 +73,7 @@ class App extends Component {
     let { Selectedlist } = this.state;
     console.log(Selectedlist);
 
-    if (Selectedlist.indexOf(props) == -1) {
+    if (Selectedlist.indexOf(props) === -1) {
       Selectedlist.push(props);
 
       this.setState({ Selectedlist });

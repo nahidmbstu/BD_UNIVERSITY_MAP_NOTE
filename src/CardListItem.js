@@ -2,11 +2,9 @@ import React, { Component } from "react";
 import "./App.css";
 
 import ListItem from "@material-ui/core/ListItem";
-import ListItemAvatar from "@material-ui/core/ListItemAvatar";
-import ListItemIcon from "@material-ui/core/ListItemIcon";
+
 import ListItemSecondaryAction from "@material-ui/core/ListItemSecondaryAction";
 import ListItemText from "@material-ui/core/ListItemText";
-import Avatar from "@material-ui/core/Avatar";
 import DeleteIcon from "@material-ui/icons/Delete";
 import Input from "@material-ui/core/Input";
 import Card from "@material-ui/core/Card";
@@ -82,7 +80,7 @@ class MODAL extends Component {
           <Card>
             <CardContent>
               <div>
-                {find_note == undefined ? (
+                {find_note === undefined ? (
                   <p>No Note Found</p>
                 ) : (
                   <p>{find_note.note}</p>
@@ -96,7 +94,7 @@ class MODAL extends Component {
   }
 }
 
-class LIST_ITEM extends Component {
+class MyItem extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -162,8 +160,8 @@ class LIST_ITEM extends Component {
   }
 }
 
-LIST_ITEM.defaultProps = {
+MyItem.defaultProps = {
   list_items: ["one", "two", "three", "four"]
 };
 
-export default LIST_ITEM;
+export default MyItem;

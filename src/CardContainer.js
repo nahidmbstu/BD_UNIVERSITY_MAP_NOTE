@@ -3,7 +3,7 @@ import "./App.css";
 import Card from "@material-ui/core/Card";
 import CardContent from "@material-ui/core/CardContent";
 import List from "@material-ui/core/List";
-import LIST_ITEM from "./CardListItem";
+import MyItem from "./CardListItem";
 
 class CardContainer extends Component {
   constructor(props) {
@@ -33,7 +33,7 @@ class CardContainer extends Component {
             Click the Marker-Popup to add notes. Select Note to See Details{" "}
           </h3>
           <List dense={false}>
-            <LIST_ITEM
+            <MyItem
               Selectedlist={Selectedlist}
               ReceiveNewList={ReceiveNewList}
               takeNotes={takeNotes}

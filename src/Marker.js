@@ -1,7 +1,6 @@
 import React from "react";
-import MyProvider from "./AppContext";
 import { Marker, Popup, Tooltip } from "react-leaflet";
-import { myIcon, UniversityListContext } from "./Utills";
+import { myIcon } from "./Utills";
 
 class MarkerComponent extends React.Component {
   constructor(props) {

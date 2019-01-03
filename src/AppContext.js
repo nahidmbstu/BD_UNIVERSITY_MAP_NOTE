@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import { UniversityListContext } from "./Utills";
 
 class MyProvider extends React.Component {
