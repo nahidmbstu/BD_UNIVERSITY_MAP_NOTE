@@ -1,32 +1,105 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext");
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans");
+@import url("https://fonts.googleapis.com/css?family=Lobster");
+@import url("https://fonts.googleapis.com/css?family=Abril+Fatface|Lobster");
+@import url("https://fonts.googleapis.com/css?family=Paytone+One");
+
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.MuiTypography-root-52 {
+  padding: 5px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.MuiTypography-root-52:hover {
+  opacity: 0.7;
 }
 
-.App-link {
-  color: #61dafb;
+h3,
+h2,
+h5 {
+  letter-spacing: 0.1rem;
+  color: darkslategray;
+  font-weight: 400;
+  font-size: 1.2rem;
+  font-family: Roboto;
 }
 
-@keyframes App-logo-spin {
+span {
+  font-size: 12px !important;
+  font-family: "Paytone One", sans-serif !important;
+  letter-spacing: 0.1rem;
+}
+
+.MyItem:hover {
+  opacity: 0.85;
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+#root {
+  height: 100%;
+}
+
+.Map {
+  height: 100%;
+}
+
+.tooltip {
+  background-color: rgb(100, 100, 100);
+}
+.MyPopup {
+  cursor: pointer;
+}
+
+.DELETE_BTN {
+  color: crimson;
+}
+
+.LIST_ITEM_HEAD {
+  color: aquamarine;
+}
+
+.MyCard {
+  position: absolute;
+  top: 20px;
+  right: 2%;
+  z-index: 1000;
+}
+
+.MyCard::-webkit-scrollbar {
+  width: 1em;
+}
+
+.MyCard::-webkit-scrollbar-track {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+.MyCard::-webkit-scrollbar-thumb {
+  background-color: rgb(75, 114, 213);
+  border-radius: 10px;
+}
+
+@keyframes fade {
   from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+    opacity: 0.75;
   }
 }
+@keyframes bigger {
+  from {
+    transform: scaleY(0.99);
+  }
+}
+
+.leaflet-marker-pane {
+  animation: fade 1s infinite alternate, bigger 1s infinite alternate;
+}
+/* 
+.menubar {
+  width: 100vw;
+  height: 55px;
+  background-color: blueviolet;
+  box-shadow: -4px 2px 6px 3px gray;
+} */

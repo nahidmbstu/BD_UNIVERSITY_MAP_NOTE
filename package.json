@@ -3,8 +3,17 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@babel/core": "^7.2.2",
+    "@material-ui/core": "^3.7.1",
+    "@material-ui/icons": "^3.0.1",
+    "all": "^0.0.0",
+    "babel-loader": "^8.0.4",
+    "leaflet": "^1.3.4",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
+    "react-leaflet": "^2.1.4",
+    "react-material-card": "0.0.2",
+    "react-responsive-modal": "^3.5.1",
     "react-scripts": "2.1.2"
   },
   "scripts": {

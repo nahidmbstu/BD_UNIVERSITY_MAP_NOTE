@@ -1,5 +1,8 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+/src/public_university.json
+
+
 # dependencies
 /node_modules
 /.pnp

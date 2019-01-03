@@ -1,0 +1,224 @@
+[
+  {
+    "name": " Jahangirnagar University ",
+    "key": "6",
+    "shortName": "  JU ",
+    "BuildYear": "1970",
+    "Place": " Savar  Dhaka Dhaka division General ",
+    "location": {
+      "lon": "90.2693921",
+      "lat": "23.883312"
+    }
+  },
+  {
+    "name": " Islamic University  Bangladesh ",
+    "key": "7",
+    "shortName": "  IU ",
+    "BuildYear": "1979",
+    "Place": " Kushtia Khulna division General   Technological ",
+    "location": {
+      "lon": "89.1505084977814",
+      "lat": "23.72145455"
+    }
+  },
+  {
+    "name": " Shahjalal University of Science and Technology ",
+    "key": "8",
+    "shortName": "  SUST ",
+    "BuildYear": "1986",
+    "Place": " Sylhet Sylhet division Science   Technology ",
+    "location": {
+      "lon": "91.8316875994537",
+      "lat": "24.91989565"
+    }
+  },
+  {
+    "name": " Khulna University ",
+    "key": "9",
+    "shortName": "  KU ",
+    "BuildYear": "1991",
+    "Place": " Khulna Khulna division General "
+  },
+  {
+    "name": " Bangabandhu Sheikh Mujib Medical University  ",
+    "key": "10",
+    "shortName": "  BSMMU ",
+    "BuildYear": "1998",
+    "Place": " Dhaka Dhaka division Medical "
+  },
+  {
+    "name": " Bangabandhu Sheikh Mujibur Rahman Agricultural University ",
+    "key": "11",
+    "shortName": "  BSMRAU ",
+    "BuildYear": "1998",
+    "Place": " Gazipur Dhaka division Agricultural Science "
+  },
+  {
+    "name": " Hajee Mohammad Danesh Science   Technology University ",
+    "key": "12",
+    "shortName": "  HSTU ",
+    "BuildYear": "1999",
+    "Place": " Dinajpur Rangpur division Science   Technology "
+  },
+  {
+    "name": "  Mawlana Bhashani Science and Technology University ",
+    "key": "13",
+    "shortName": "  MBSTU ",
+    "BuildYear": "1999",
+    "Place": " Tangail Dhaka division Science   Technology "
+  },
+  {
+    "name": " Patuakhali Science and Technology University ",
+    "key": "14",
+    "shortName": "  PSTU ",
+    "BuildYear": "2000",
+    "Place": " Patuakhali Barisal division Science   Technology "
+  },
+  {
+    "name": " Sher e Bangla Agricultural University ",
+    "key": "15",
+    "shortName": "  SAU ",
+    "BuildYear": "2001",
+    "Place": " Dhaka Dhaka division Agricultural Science "
+  },
+  {
+    "name": " Dhaka University of Engineering   Technology ",
+    "key": "16",
+    "shortName": "  DUET ",
+    "BuildYear": "2003",
+    "Place": " Gazipur Dhaka division Engineering "
+  },
+  {
+    "name": " Rajshahi University of Engineering   Technology ",
+    "key": "17",
+    "shortName": "  RUET ",
+    "BuildYear": "2003",
+    "Place": " Rajshahi Rajshahi division Engineering "
+  },
+  {
+    "name": " Chittagong University of Engineering   Technology ",
+    "key": "18",
+    "shortName": "  CUET ",
+    "BuildYear": "2003",
+    "Place": " Chittagong Chittagong division Engineering "
+  },
+  {
+    "name": " Khulna University of Engineering   Technology ",
+    "key": "19",
+    "shortName": "  KUET ",
+    "BuildYear": "2003",
+    "Place": " Khulna Khulna division Engineering "
+  },
+  {
+    "name": " Jagannath University ",
+    "key": "20",
+    "shortName": "  JnU ",
+    "BuildYear": "2005",
+    "Place": " Dhaka Dhaka division General "
+  },
+  {
+    "name": " Jatiya Kabi Kazi Nazrul Islam University ",
+    "key": "21",
+    "shortName": "  JKKNIU ",
+    "BuildYear": "2005",
+    "Place": " Mymensingh Mymensingh division General "
+  },
+  {
+    "name": " Chittagong Veterinary and Animal Sciences University ",
+    "key": "22",
+    "shortName": "  CVASU ",
+    "BuildYear": "2006",
+    "Place": " Chittagong Chittagong division Veterinary Science "
+  },
+  {
+    "name": " Sylhet Agricultural University ",
+    "key": "23",
+    "shortName": "  SAU ",
+    "BuildYear": "2006",
+    "Place": " Sylhet Sylhet division Agricultural Science "
+  },
+  {
+    "name": " Comilla University ",
+    "key": "24",
+    "shortName": "  CoU ",
+    "BuildYear": "2006",
+    "Place": " Comilla Chittagong division General "
+  },
+  {
+    "name": " Noakhali Science and Technology University ",
+    "key": "25",
+    "shortName": "  NSTU ",
+    "BuildYear": "2006",
+    "Place": " Noakhali Chittagong division Science   Technology "
+  },
+  {
+    "name": " Jessore University of Science   Technology ",
+    "key": "26",
+    "shortName": "  JUST ",
+    "BuildYear": "2008",
+    "Place": " Jessore Khulna division Science   Technology "
+  },
+  {
+    "name": " Pabna University of Science and Technology ",
+    "key": "37",
+    "shortName": "  PUST ",
+    "BuildYear": "2008",
+    "Place": " Pabna Rajshahi division Science   Technology "
+  },
+  {
+    "name": " Bangladesh University of Professionals ",
+    "key": "28",
+    "shortName": "  BUP ",
+    "BuildYear": "2008",
+    "Place": " Dhaka Dhaka division General "
+  },
+  {
+    "name": " Begum Rokeya University ",
+    "key": "29",
+    "shortName": "  BRU ",
+    "BuildYear": "2008",
+    "Place": " Rangpur Rangpur division General "
+  },
+  {
+    "name": " Bangladesh University of Textiles ",
+    "key": "30",
+    "shortName": "  BUTEX ",
+    "BuildYear": "2010",
+    "Place": " Dhaka Dhaka division Textile Engineering "
+  },
+  {
+    "name": " University of Barisal ",
+    "key": "31",
+    "shortName": "   BU ",
+    "BuildYear": "2011",
+    "Place": " Barisal Barisal division General "
+  },
+  {
+    "name": " Bangabandhu Sheikh Mujibur Rahman Science and Technology University ",
+    "key": "32",
+    "shortName": "  BSMRSTU ",
+    "BuildYear": "2011",
+    "Place": " Gopalganj Dhaka division Science   Technology "
+  },
+  {
+    "name": " Bangabandhu Sheikh Mujibur Rahman Maritime University ",
+    "key": "33",
+    "shortName": "  BSMRMU ",
+    "BuildYear": "2014",
+    "Place": " Dhaka Dhaka division Maritime "
+  },
+  {
+    "name": " Rangamati Science and Technology University ",
+    "key": "34",
+    "shortName": "  RMSTU ",
+    "BuildYear": "2014",
+    "Place": " Rangamati Chittagong division Science   Technology "
+  },
+  {
+    "name": "  Rabindra University  Bangladesh ",
+    "key": "35",
+    "shortName": "  RUB ",
+    "BuildYear": "2017",
+    "Place": " Sirajganj Rajshahi division General No  Bangabandhu Sheikh Mujibur Rahman Digital University "
+  }
+]
