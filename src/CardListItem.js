@@ -12,6 +12,8 @@ import CardContent from "@material-ui/core/CardContent";
 import IconButton from "@material-ui/core/IconButton";
 
 import AddIcon from "@material-ui/icons/Add";
+import UpdateIcon from "@material-ui/icons/Update";
+
 import Fab from "@material-ui/core/Fab";
 import Modal from "react-responsive-modal";
 
@@ -58,32 +60,48 @@ class MODAL extends Component {
     return (
       <Modal open={open} onClose={this.onCloseModal}>
         <div>
-          <h2>{name}</h2>
-          <div style={{ display: "flex", margin: 20 }}>
-            <Input
-              placeholder="Add a Note"
-              inputProps={{
-                "aria-label": "Description"
-              }}
-              fullWidth
-              value={this.state.note}
-              onChange={this.handleChange}
-            />
-            <Fab
-              color="secondary"
-              aria-label="Add"
-              onClick={() => this.handleClick(name)}
-            >
-              <AddIcon />
-            </Fab>
-          </div>
+          <h2 className="uni_name">{name}</h2>
+          {find_note ? null : (
+            <div style={{ display: "flex", margin: 20 }}>
+              <Input
+                placeholder="Add a Note"
+                inputProps={{
+                  "aria-label": "Description"
+                }}
+                fullWidth
+                value={this.state.note}
+                onChange={this.handleChange}
+              />
+              <Fab
+                color="secondary"
+                aria-label="Add"
+                onClick={() => this.handleClick(name)}
+              >
+                <AddIcon />
+              </Fab>
+            </div>
+          )}
+
           <Card>
             <CardContent>
               <div>
                 {find_note === undefined ? (
                   <p>No Note Found</p>
                 ) : (
-                  <p>{find_note.note}</p>
+                  <div
+                    style={{ display: "flex", justifyContent: "space-between" }}
+                  >
+                    <p>{find_note.note}</p>
+                    <div className="update_fab">
+                      <Fab
+                        color="secondary"
+                        aria-label="Add"
+                        onClick={() => {}}
+                      >
+                        <UpdateIcon />
+                      </Fab>
+                    </div>
+                  </div>
                 )}
               </div>
             </CardContent>

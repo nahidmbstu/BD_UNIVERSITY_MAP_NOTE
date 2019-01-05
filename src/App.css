@@ -67,6 +67,10 @@ span {
   top: 20px;
   right: 2%;
   z-index: 1000;
+  background-color: #dfe3e6 !important;
+  width: 20vw !important;
+  height: 90vh !important;
+  overflow-y: scroll !important;
 }
 
 .MyCard::-webkit-scrollbar {
@@ -96,6 +100,21 @@ span {
 .leaflet-marker-pane {
   animation: fade 1s infinite alternate, bigger 1s infinite alternate;
 }
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  .MyCard {
+    width: 50vw !important;
+    height: 30vh;
+  }
+}
+
+.uni_name {
+  margin: 1.5rem 1.5rem;
+}
+.update_fab {
+  float: right;
+}
+
 /* 
 .menubar {
   width: 100vw;

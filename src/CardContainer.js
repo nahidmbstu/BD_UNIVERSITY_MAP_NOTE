@@ -18,15 +18,7 @@ class CardContainer extends Component {
   render() {
     let { Selectedlist, ReceiveNewList, takeNotes, notes } = this.props;
     return (
-      <Card
-        className="MyCard"
-        style={{
-          backgroundColor: " #dfe3e6",
-          width: "20vw",
-          height: "90vh",
-          overflowY: "scroll"
-        }}
-      >
+      <Card className="MyCard" style={{}}>
         <CardContent>
           <h3>
             {" "}

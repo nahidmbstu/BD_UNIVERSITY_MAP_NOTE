@@ -57,8 +57,6 @@ class App extends Component {
 
   componentDidMount() {
     navigator.geolocation.getCurrentPosition(this.success, this.error);
-
-    console.log("oooooooooooooooooooooooooooooooooooooooooo", this.props);
   }
 
   componentWillUpdate(nextProps, nextState) {
@@ -75,8 +73,9 @@ class App extends Component {
 
     if (Selectedlist.indexOf(props) === -1) {
       Selectedlist.push(props);
-
       this.setState({ Selectedlist });
+    } else {
+      alert("Item is already on the list");
     }
   };
 

@@ -37,188 +37,296 @@
     "key": "9",
     "shortName": "  KU ",
     "BuildYear": "1991",
-    "Place": " Khulna Khulna division General "
+    "Place": " Khulna Khulna division General ",
+    "location": {
+      "lat": "22.811691",
+      "lon": "89.532221"
+    }
   },
   {
     "name": " Bangabandhu Sheikh Mujib Medical University  ",
     "key": "10",
     "shortName": "  BSMMU ",
     "BuildYear": "1998",
-    "Place": " Dhaka Dhaka division Medical "
+    "Place": " Dhaka Dhaka division Medical ",
+    "location": {
+      "lat": "23.738675",
+      "lon": "90.395777"
+    }
   },
   {
     "name": " Bangabandhu Sheikh Mujibur Rahman Agricultural University ",
     "key": "11",
     "shortName": "  BSMRAU ",
     "BuildYear": "1998",
-    "Place": " Gazipur Dhaka division Agricultural Science "
+    "Place": " Gazipur Dhaka division Agricultural Science ",
+    "location": {
+      "lat": "24.038003",
+      "lon": "90.399582"
+    }
   },
   {
     "name": " Hajee Mohammad Danesh Science   Technology University ",
     "key": "12",
     "shortName": "  HSTU ",
     "BuildYear": "1999",
-    "Place": " Dinajpur Rangpur division Science   Technology "
+    "Place": " Dinajpur Rangpur division Science   Technology ",
+    "location": {
+      "lat": "25.697202",
+      "lon": "88.651283"
+    }
   },
   {
     "name": "  Mawlana Bhashani Science and Technology University ",
     "key": "13",
     "shortName": "  MBSTU ",
     "BuildYear": "1999",
-    "Place": " Tangail Dhaka division Science   Technology "
+    "Place": " Tangail Dhaka division Science   Technology ",
+    "location": {
+      "lat": "24.235602",
+      "lon": "89.892384"
+    }
   },
   {
     "name": " Patuakhali Science and Technology University ",
     "key": "14",
     "shortName": "  PSTU ",
     "BuildYear": "2000",
-    "Place": " Patuakhali Barisal division Science   Technology "
+    "Place": " Patuakhali Barisal division Science   Technology ",
+    "location": {
+      "lat": "22.464394",
+      "lon": "90.383545"
+    }
   },
   {
     "name": " Sher e Bangla Agricultural University ",
     "key": "15",
     "shortName": "  SAU ",
     "BuildYear": "2001",
-    "Place": " Dhaka Dhaka division Agricultural Science "
+    "Place": " Dhaka Dhaka division Agricultural Science ",
+    "location": {
+      "lat": "23.769328",
+      "lon": "90.373097"
+    }
   },
   {
     "name": " Dhaka University of Engineering   Technology ",
     "key": "16",
     "shortName": "  DUET ",
     "BuildYear": "2003",
-    "Place": " Gazipur Dhaka division Engineering "
+    "Place": " Gazipur Dhaka division Engineering ",
+    "location": {
+      "lat": "22.811691",
+      "lon": "89.532221"
+    }
   },
   {
     "name": " Rajshahi University of Engineering   Technology ",
     "key": "17",
     "shortName": "  RUET ",
     "BuildYear": "2003",
-    "Place": " Rajshahi Rajshahi division Engineering "
+    "Place": " Rajshahi Rajshahi division Engineering ",
+    "location": {
+      "lat": "22.811691",
+      "lon": "89.532221"
+    }
   },
   {
     "name": " Chittagong University of Engineering   Technology ",
     "key": "18",
     "shortName": "  CUET ",
     "BuildYear": "2003",
-    "Place": " Chittagong Chittagong division Engineering "
+    "Place": " Chittagong Chittagong division Engineering ",
+    "location": {
+      "lat": "22.811691",
+      "lon": "89.532221"
+    }
   },
   {
     "name": " Khulna University of Engineering   Technology ",
     "key": "19",
     "shortName": "  KUET ",
     "BuildYear": "2003",
-    "Place": " Khulna Khulna division Engineering "
+    "Place": " Khulna Khulna division Engineering ",
+    "location": {
+      "lat": "22.811691",
+      "lon": "89.532221"
+    }
   },
   {
     "name": " Jagannath University ",
     "key": "20",
     "shortName": "  JnU ",
     "BuildYear": "2005",
-    "Place": " Dhaka Dhaka division General "
+    "Place": " Dhaka Dhaka division General ",
+    "location": {
+      "lat": "22.811691",
+      "lon": "89.532221"
+    }
   },
   {
     "name": " Jatiya Kabi Kazi Nazrul Islam University ",
     "key": "21",
     "shortName": "  JKKNIU ",
     "BuildYear": "2005",
-    "Place": " Mymensingh Mymensingh division General "
+    "Place": " Mymensingh Mymensingh division General ",
+    "location": {
+      "lat": "22.811691",
+      "lon": "89.532221"
+    }
   },
   {
     "name": " Chittagong Veterinary and Animal Sciences University ",
     "key": "22",
     "shortName": "  CVASU ",
     "BuildYear": "2006",
-    "Place": " Chittagong Chittagong division Veterinary Science "
+    "Place": " Chittagong Chittagong division Veterinary Science ",
+    "location": {
+      "lat": "22.811691",
+      "lon": "89.532221"
+    }
   },
   {
     "name": " Sylhet Agricultural University ",
     "key": "23",
     "shortName": "  SAU ",
     "BuildYear": "2006",
-    "Place": " Sylhet Sylhet division Agricultural Science "
+    "Place": " Sylhet Sylhet division Agricultural Science ",
+    "location": {
+      "lat": "22.811691",
+      "lon": "89.532221"
+    }
   },
   {
     "name": " Comilla University ",
     "key": "24",
     "shortName": "  CoU ",
     "BuildYear": "2006",
-    "Place": " Comilla Chittagong division General "
+    "Place": " Comilla Chittagong division General ",
+    "location": {
+      "lat": "22.811691",
+      "lon": "89.532221"
+    }
   },
   {
     "name": " Noakhali Science and Technology University ",
     "key": "25",
     "shortName": "  NSTU ",
     "BuildYear": "2006",
-    "Place": " Noakhali Chittagong division Science   Technology "
+    "Place": " Noakhali Chittagong division Science   Technology ",
+    "location": {
+      "lat": "22.811691",
+      "lon": "89.532221"
+    }
   },
   {
     "name": " Jessore University of Science   Technology ",
     "key": "26",
     "shortName": "  JUST ",
     "BuildYear": "2008",
-    "Place": " Jessore Khulna division Science   Technology "
+    "Place": " Jessore Khulna division Science   Technology ",
+    "location": {
+      "lat": "22.811691",
+      "lon": "89.532221"
+    }
   },
   {
     "name": " Pabna University of Science and Technology ",
     "key": "37",
     "shortName": "  PUST ",
     "BuildYear": "2008",
-    "Place": " Pabna Rajshahi division Science   Technology "
+    "Place": " Pabna Rajshahi division Science   Technology ",
+    "location": {
+      "lat": "22.811691",
+      "lon": "89.532221"
+    }
   },
   {
     "name": " Bangladesh University of Professionals ",
     "key": "28",
     "shortName": "  BUP ",
     "BuildYear": "2008",
-    "Place": " Dhaka Dhaka division General "
+    "Place": " Dhaka Dhaka division General ",
+    "location": {
+      "lat": "22.811691",
+      "lon": "89.532221"
+    }
   },
   {
     "name": " Begum Rokeya University ",
     "key": "29",
     "shortName": "  BRU ",
     "BuildYear": "2008",
-    "Place": " Rangpur Rangpur division General "
+    "Place": " Rangpur Rangpur division General ",
+    "location": {
+      "lat": "22.811691",
+      "lon": "89.532221"
+    }
   },
   {
     "name": " Bangladesh University of Textiles ",
     "key": "30",
     "shortName": "  BUTEX ",
     "BuildYear": "2010",
-    "Place": " Dhaka Dhaka division Textile Engineering "
+    "Place": " Dhaka Dhaka division Textile Engineering ",
+    "location": {
+      "lat": "22.811691",
+      "lon": "89.532221"
+    }
   },
   {
     "name": " University of Barisal ",
     "key": "31",
     "shortName": "   BU ",
     "BuildYear": "2011",
-    "Place": " Barisal Barisal division General "
+    "Place": " Barisal Barisal division General ",
+    "location": {
+      "lat": "22.811691",
+      "lon": "89.532221"
+    }
   },
   {
     "name": " Bangabandhu Sheikh Mujibur Rahman Science and Technology University ",
     "key": "32",
     "shortName": "  BSMRSTU ",
     "BuildYear": "2011",
-    "Place": " Gopalganj Dhaka division Science   Technology "
+    "Place": " Gopalganj Dhaka division Science   Technology ",
+    "location": {
+      "lat": "22.811691",
+      "lon": "89.532221"
+    }
   },
   {
     "name": " Bangabandhu Sheikh Mujibur Rahman Maritime University ",
     "key": "33",
     "shortName": "  BSMRMU ",
     "BuildYear": "2014",
-    "Place": " Dhaka Dhaka division Maritime "
+    "Place": " Dhaka Dhaka division Maritime ",
+    "location": {
+      "lat": "22.811691",
+      "lon": "89.532221"
+    }
   },
   {
     "name": " Rangamati Science and Technology University ",
     "key": "34",
     "shortName": "  RMSTU ",
     "BuildYear": "2014",
-    "Place": " Rangamati Chittagong division Science   Technology "
+    "Place": " Rangamati Chittagong division Science   Technology ",
+    "location": {
+      "lat": "22.811691",
+      "lon": "89.532221"
+    }
   },
   {
     "name": "  Rabindra University  Bangladesh ",
     "key": "35",
     "shortName": "  RUB ",
     "BuildYear": "2017",
-    "Place": " Sirajganj Rajshahi division General No  Bangabandhu Sheikh Mujibur Rahman Digital University "
+    "Place": " Sirajganj Rajshahi division General No  Bangabandhu Sheikh Mujibur Rahman Digital University ",
+    "location": {
+      "lat": "22.811691",
+      "lon": "89.532221"
+    }
   }
 ]

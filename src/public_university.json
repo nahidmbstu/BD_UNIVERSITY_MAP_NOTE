@@ -86,5 +86,115 @@
       "lon": "91.8316875994537",
       "lat": "24.91989565"
     }
+  },
+  {
+    "name": " Jahangirnagar University ",
+    "key": "6",
+    "shortName": "  JU ",
+    "BuildYear": "1970",
+    "Place": " Savar  Dhaka Dhaka division General ",
+    "location": {
+      "lon": "90.2693921",
+      "lat": "23.883312"
+    }
+  },
+  {
+    "name": " Islamic University  Bangladesh ",
+    "key": "7",
+    "shortName": "  IU ",
+    "BuildYear": "1979",
+    "Place": " Kushtia Khulna division General   Technological ",
+    "location": {
+      "lon": "89.1505084977814",
+      "lat": "23.72145455"
+    }
+  },
+  {
+    "name": " Shahjalal University of Science and Technology ",
+    "key": "8",
+    "shortName": "  SUST ",
+    "BuildYear": "1986",
+    "Place": " Sylhet Sylhet division Science   Technology ",
+    "location": {
+      "lon": "91.8316875994537",
+      "lat": "24.91989565"
+    }
+  },
+  {
+    "name": " Khulna University ",
+    "key": "9",
+    "shortName": "  KU ",
+    "BuildYear": "1991",
+    "Place": " Khulna Khulna division General ",
+    "location": {
+      "lat": "22.811691",
+      "lon": "89.532221"
+    }
+  },
+  {
+    "name": " Bangabandhu Sheikh Mujib Medical University  ",
+    "key": "10",
+    "shortName": "  BSMMU ",
+    "BuildYear": "1998",
+    "Place": " Dhaka Dhaka division Medical ",
+    "location": {
+      "lat": "23.738675",
+      "lon": "90.395777"
+    }
+  },
+  {
+    "name": " Bangabandhu Sheikh Mujibur Rahman Agricultural University ",
+    "key": "11",
+    "shortName": "  BSMRAU ",
+    "BuildYear": "1998",
+    "Place": " Gazipur Dhaka division Agricultural Science ",
+    "location": {
+      "lat": "24.038003",
+      "lon": "90.399582"
+    }
+  },
+  {
+    "name": " Hajee Mohammad Danesh Science   Technology University ",
+    "key": "12",
+    "shortName": "  HSTU ",
+    "BuildYear": "1999",
+    "Place": " Dinajpur Rangpur division Science   Technology ",
+    "location": {
+      "lat": "25.697202",
+      "lon": "88.651283"
+    }
+  },
+  {
+    "name": "  Mawlana Bhashani Science and Technology University ",
+    "key": "13",
+    "shortName": "MBSTU",
+    "BuildYear": "1999",
+    "Place": " Tangail Dhaka division Science   Technology ",
+    "location": {
+      "lat": "24.235602",
+      "lon": "89.892384"
+    }
+  },
+  {
+    "name": " Patuakhali Science and Technology University ",
+    "key": "14",
+    "shortName": "  PSTU ",
+    "BuildYear": "2000",
+    "Place": " Patuakhali Barisal division Science   Technology ",
+    "location": {
+      "lat": "22.464394",
+      "lon": "90.383545"
+    }
+  },
+  {
+    "name": " Sher e Bangla Agricultural University ",
+    "key": "15",
+    "shortName": "  SAU ",
+    "BuildYear": "2001",
+    "Place": " Dhaka Dhaka division Agricultural Science ",
+    "location": {
+      "lat": "23.769328",
+      "lon": "90.373097"
+    }
   }
 ]

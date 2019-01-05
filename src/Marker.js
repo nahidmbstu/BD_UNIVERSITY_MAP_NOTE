@@ -1,6 +1,6 @@
 import React from "react";
 import { Marker, Popup, Tooltip } from "react-leaflet";
-import { myIcon } from "./Utills";
+import { myIcon, Love } from "./Utills";
 
 class MarkerComponent extends React.Component {
   constructor(props) {
@@ -10,7 +10,11 @@ class MarkerComponent extends React.Component {
   render() {
     let { name, location, shortName, Place } = this.props.data;
     return (
-      <Marker position={location} icon={myIcon} className="MyMarker">
+      <Marker
+        position={location}
+        icon={shortName === "MBSTU" ? Love : myIcon}
+        className="MyMarker"
+      >
         <Popup>
           <div className="MyPopup" onClick={() => this.props.onClick(name)}>
             <p>{name}</p>
