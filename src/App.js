@@ -1,11 +1,13 @@
-import React, { Component } from "react";
+import React, { Component, lazy, Suspense } from "react";
 import { Map, TileLayer } from "react-leaflet";
 import "./App.css";
 import Universities from "./public_university.json";
 import { OPEN_STREET_URL, OPEN_STREET_ATTRIBUTION } from "./Utills";
 import CardContainer from "./CardContainer";
-import MarkerComponent from "./Marker";
+// import MarkerComponent from "./Marker";
 import MyProvider from "./AppContext";
+
+const MarkerComponent = lazy(() => import("./Marker"));
 
 class App extends Component {
   state = {
@@ -100,25 +102,31 @@ class App extends Component {
 
     return (
       <MyProvider>
-        <Map
-          className="Map"
-          center={this.state.locationEnable ? currentPostion : position}
-          zoom={this.state.zoom}
-        >
-          <TileLayer
-            attribution={OPEN_STREET_ATTRIBUTION}
-            url={OPEN_STREET_URL}
-          />
-          {this.state.data.map(i => (
-            <MarkerComponent data={i} onClick={this.handleClick} key={i.name} />
-          ))}
-          <CardContainer
-            Selectedlist={this.state.Selectedlist}
-            notes={this.state.uni_notes}
-            ReceiveNewList={this.ReceiveNewList}
-            takeNotes={this.takeNotes}
-          />
-        </Map>
+        <Suspense fallback={<div>loading ......</div>}>
+          <Map
+            className="Map"
+            center={this.state.locationEnable ? currentPostion : position}
+            zoom={this.state.zoom}
+          >
+            <TileLayer
+              attribution={OPEN_STREET_ATTRIBUTION}
+              url={OPEN_STREET_URL}
+            />
+            {this.state.data.map(i => (
+              <MarkerComponent
+                data={i}
+                onClick={this.handleClick}
+                key={i.name}
+              />
+            ))}
+            <CardContainer
+              Selectedlist={this.state.Selectedlist}
+              notes={this.state.uni_notes}
+              ReceiveNewList={this.ReceiveNewList}
+              takeNotes={this.takeNotes}
+            />
+          </Map>
+        </Suspense>
       </MyProvider>
     );
   }
