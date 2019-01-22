@@ -86,6 +86,48 @@ span {
   border-radius: 10px;
 }
 
+.inputContainer {
+  position: fixed;
+  z-index: 1000;
+  top: 3vh;
+  left: 5vw;
+  padding: 10px;
+  border-radius: 3px;
+  background-color: #ffffff;
+  box-shadow: 0 3px 5px 0 #828286;
+  overflow-y: auto;
+}
+
+.searchBox {
+  width: 20vw;
+  height: 5vh;
+  outline: none;
+  border: none;
+}
+
+.searchBox::-webkit-search-cancel-button {
+  position: absolute;
+  left: 90%;
+  font-size: 18px;
+  background: red;
+}
+
+.searchBox::placeholder {
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+.result-list {
+  margin-top: 10px;
+  max-height: 65vh;
+  width: 20vw;
+  overflow-y: scroll !important;
+}
+
+.list-item {
+  padding: 1px;
+}
+
 @keyframes fade {
   from {
     opacity: 0.75;

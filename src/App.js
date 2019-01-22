@@ -1,13 +1,17 @@
-import React, { Component, lazy, Suspense } from "react";
-import { Map, TileLayer } from "react-leaflet";
+import React, { Component, Suspense } from "react";
+import _ from "loadsh";
+import Fuse from "fuse.js";
 import "./App.css";
 import Universities from "./public_university.json";
-import { OPEN_STREET_URL, OPEN_STREET_ATTRIBUTION } from "./Utills";
 import CardContainer from "./CardContainer";
-// import MarkerComponent from "./Marker";
 import MyProvider from "./AppContext";
+import MyMap from "./Map";
 
-const MarkerComponent = lazy(() => import("./Marker"));
+import List from "@material-ui/core/List";
+import ListItem from "@material-ui/core/ListItem";
+import ListItemText from "@material-ui/core/ListItemText";
+import Card from "@material-ui/core/Card";
+import CardContent from "@material-ui/core/CardContent";
 
 class App extends Component {
   state = {
@@ -21,7 +25,8 @@ class App extends Component {
       lat: 0,
       lng: 0
     },
-    uni_notes: []
+    uni_notes: [],
+    result: []
   };
 
   componentWillMount() {
@@ -69,9 +74,7 @@ class App extends Component {
   }
 
   handleClick = props => {
-    console.log(props);
     let { Selectedlist } = this.state;
-    console.log(Selectedlist);
 
     if (Selectedlist.indexOf(props) === -1) {
       Selectedlist.push(props);
@@ -86,10 +89,29 @@ class App extends Component {
   };
 
   takeNotes = note => {
-    console.log("some note .................................", note);
     let { uni_notes } = this.state;
     uni_notes.push(note);
     this.setState({ uni_notes });
+  };
+
+  handleSearchChange = e => {
+    e.preventDefault();
+
+    let { data } = this.state;
+    let searchText = e.target.value;
+    console.log(searchText);
+
+    var options = {
+      keys: ["name", "shortName"],
+      minMatchCharLength: 3,
+      id: "name"
+    };
+
+    var fuse = new Fuse(data, options);
+    let result = fuse.search(searchText);
+    console.log(result);
+
+    this.setState({ result });
   };
 
   render() {
@@ -100,32 +122,53 @@ class App extends Component {
       this.state.currentPostion.lng
     ];
 
+    let {
+      locationEnable,
+      zoom,
+      Selectedlist,
+      uni_notes,
+      data,
+      result
+    } = this.state;
+
     return (
       <MyProvider>
         <Suspense fallback={<div>loading ......</div>}>
-          <Map
-            className="Map"
-            center={this.state.locationEnable ? currentPostion : position}
-            zoom={this.state.zoom}
-          >
-            <TileLayer
-              attribution={OPEN_STREET_ATTRIBUTION}
-              url={OPEN_STREET_URL}
+          <div className="inputContainer">
+            <input
+              type="search"
+              placeholder="Search University "
+              className="searchBox"
+              autoFocus
+              autoComplete={false}
+              onChange={this.handleSearchChange}
             />
-            {this.state.data.map(i => (
-              <MarkerComponent
-                data={i}
-                onClick={this.handleClick}
-                key={i.name}
-              />
-            ))}
-            <CardContainer
-              Selectedlist={this.state.Selectedlist}
-              notes={this.state.uni_notes}
-              ReceiveNewList={this.ReceiveNewList}
-              takeNotes={this.takeNotes}
-            />
-          </Map>
+
+            <div className="result-list">
+              {result.map(item => (
+                <div
+                  className="list-item"
+                  onClick={() => this.handleClick(item)}
+                >
+                  <p>{item}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+          <MyMap
+            locationEnable={locationEnable}
+            currentPostion={currentPostion}
+            position={position}
+            zoom={zoom}
+            data={data}
+            handleClick={this.handleClick}
+          />
+          <CardContainer
+            Selectedlist={Selectedlist}
+            notes={uni_notes}
+            ReceiveNewList={this.ReceiveNewList}
+            takeNotes={this.takeNotes}
+          />
         </Suspense>
       </MyProvider>
     );
