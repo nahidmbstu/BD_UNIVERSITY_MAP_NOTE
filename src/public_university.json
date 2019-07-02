@@ -88,39 +88,6 @@
     }
   },
   {
-    "name": " Jahangirnagar University ",
-    "key": "6",
-    "shortName": "  JU ",
-    "BuildYear": "1970",
-    "Place": " Savar  Dhaka Dhaka division General ",
-    "location": {
-      "lon": "90.2693921",
-      "lat": "23.883312"
-    }
-  },
-  {
-    "name": " Islamic University  Bangladesh ",
-    "key": "7",
-    "shortName": "  IU ",
-    "BuildYear": "1979",
-    "Place": " Kushtia Khulna division General   Technological ",
-    "location": {
-      "lon": "89.1505084977814",
-      "lat": "23.72145455"
-    }
-  },
-  {
-    "name": " Shahjalal University of Science and Technology ",
-    "key": "8",
-    "shortName": "  SUST ",
-    "BuildYear": "1986",
-    "Place": " Sylhet Sylhet division Science   Technology ",
-    "location": {
-      "lon": "91.8316875994537",
-      "lat": "24.91989565"
-    }
-  },
-  {
     "name": " Khulna University ",
     "key": "9",
     "shortName": "  KU ",
@@ -195,6 +162,18 @@
     "location": {
       "lat": "23.769328",
       "lon": "90.373097"
+    }
+  },
+  {
+    "name": "Rajshahi University of Engineering & Technology",
+    "shortName": "RUET",
+    "BuildYear": "2003",
+    "division": "Rajshahi division",
+    "specialization": "Engineering",
+    "Ph.D.": "Yes",
+    "location": {
+      "lat": "24.3686964",
+      "lon": "88.627003"
     }
   }
 ]

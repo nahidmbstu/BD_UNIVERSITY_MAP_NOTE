@@ -1,21 +1,12 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext");
-@import url("https://fonts.googleapis.com/css?family=Josefin+Sans");
-@import url("https://fonts.googleapis.com/css?family=Lobster");
-@import url("https://fonts.googleapis.com/css?family=Abril+Fatface|Lobster");
-@import url("https://fonts.googleapis.com/css?family=Paytone+One");
 
 body {
   margin: 0;
   width: 100vw;
   height: 100vh;
 }
-
-.MuiTypography-root-52 {
-  padding: 5px;
-}
-
-.MuiTypography-root-52:hover {
-  opacity: 0.7;
+h1 {
+  text-align: center;
 }
 
 h3,
@@ -29,14 +20,21 @@ h5 {
 }
 
 span {
-  font-size: 12px !important;
-  font-family: "Paytone One", sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 400 !important ;
   letter-spacing: 0.1rem;
+}
+
+.MyItem {
+  box-shadow: 0 0 1px 1px gray;
+  border-radius: 2px;
+  margin-bottom: 5px;
 }
 
 .MyItem:hover {
   opacity: 0.85;
   background-color: rgba(0, 0, 0, 0.15);
+  cursor: pointer;
 }
 
 #root {
@@ -63,21 +61,22 @@ span {
 }
 
 .MyCard {
-  position: absolute;
-  top: 20px;
-  right: 2%;
+  position: fixed;
+  top: 0;
+  left: 0;
   z-index: 1000;
   background-color: #dfe3e6 !important;
-  width: 20vw !important;
-  height: 90vh !important;
+  width: 23vw !important;
+  height: 100vh !important;
   overflow-y: scroll !important;
 }
 
 .MyCard::-webkit-scrollbar {
-  width: 1em;
+  width: 0;
 }
 
 .MyCard::-webkit-scrollbar-track {
+  width: 1;
   border-radius: 10px;
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
 }
@@ -89,27 +88,24 @@ span {
 .inputContainer {
   position: fixed;
   z-index: 1000;
-  top: 3vh;
-  left: 5vw;
+  top: 2vh;
+  left: 25vw;
   padding: 10px;
-  border-radius: 3px;
+  border-radius: 6px;
   background-color: #ffffff;
   box-shadow: 0 3px 5px 0 #828286;
   overflow-y: auto;
 }
 
 .searchBox {
-  width: 20vw;
+  width: 40vw;
   height: 5vh;
   outline: none;
   border: none;
 }
 
 .searchBox::-webkit-search-cancel-button {
-  position: absolute;
-  left: 90%;
-  font-size: 18px;
-  background: red;
+  display: none;
 }
 
 .searchBox::placeholder {
@@ -118,15 +114,54 @@ span {
 }
 
 .result-list {
-  margin-top: 10px;
   max-height: 65vh;
-  width: 20vw;
+  width: 40vw;
   overflow-y: scroll !important;
+  cursor: pointer;
+}
+
+.result-list::-webkit-scrollbar {
+  width: 0;
 }
 
 .list-item {
-  padding: 1px;
+  padding: 5px;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 9fr 1fr;
+  align-items: center;
+  border-bottom: 1px solid grey;
 }
+
+.Note-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.leaflet-control-zoom-in {
+  position: fixed;
+  right: 2%;
+  top: 2%;
+}
+
+.leaflet-control-zoom-out {
+  position: fixed;
+  right: 2%;
+  top: 8%;
+}
+
+/* 
+
+
+
+
+
+
+
+
+
+
+*/
 
 @keyframes fade {
   from {
@@ -143,10 +178,23 @@ span {
   animation: fade 1s infinite alternate, bigger 1s infinite alternate;
 }
 
-@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+@media only screen and (max-width: 375px) {
+  .inputContainer {
+    top: 2vh;
+    left: 5vh;
+  }
+  .searchBox {
+    width: 70vw;
+  }
+
   .MyCard {
-    width: 50vw !important;
-    height: 30vh;
+    top: 60vh;
+    width: 100vw !important;
+    height: 40vh !important;
+    box-shadow: 4px 1px 9px 9px rgba(0, 0, 0, 0.2) !important;
+  }
+  .result-list {
+    width: 70vw;
   }
 }
 

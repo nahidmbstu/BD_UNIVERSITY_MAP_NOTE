@@ -1,17 +1,16 @@
 import React, { Component, Suspense } from "react";
-import _ from "loadsh";
 import Fuse from "fuse.js";
+import _ from "loadsh";
+
 import "./App.css";
 import Universities from "./public_university.json";
 import CardContainer from "./CardContainer";
 import MyProvider from "./AppContext";
 import MyMap from "./Map";
-
-import List from "@material-ui/core/List";
-import ListItem from "@material-ui/core/ListItem";
-import ListItemText from "@material-ui/core/ListItemText";
-import Card from "@material-ui/core/Card";
-import CardContent from "@material-ui/core/CardContent";
+import NoteAdd from "@material-ui/icons/NoteAdd";
+import All from "./all_data.json";
+import axios from "axios";
+import { opencagedata_forward_geocoding } from "./Utills";
 
 class App extends Component {
   state = {
@@ -19,6 +18,7 @@ class App extends Component {
     lng: 90.4125,
     zoom: 7,
     data: Universities,
+    searchData: All,
     Selectedlist: [],
     locationEnable: false,
     currentPostion: {
@@ -26,20 +26,19 @@ class App extends Component {
       lng: 0
     },
     uni_notes: [],
-    result: []
+    result: [],
+    all_data: All,
+    foundLocations: []
   };
 
   componentWillMount() {
-    if (localStorage.getItem("uni")) {
-      this.setState({
-        Selectedlist: JSON.parse(localStorage.getItem("uni"))
-      });
-    }
-    if (localStorage.getItem("note")) {
-      this.setState({
-        uni_notes: JSON.parse(localStorage.getItem("note"))
-      });
-    }
+    let _names = JSON.parse(JSON.stringify(this.state.all_data));
+
+    let all = [];
+    _names.map(i => {
+      all.push(i.name);
+    });
+    console.log(all);
   }
   success = pos => {
     if (pos) {
@@ -64,6 +63,17 @@ class App extends Component {
 
   componentDidMount() {
     navigator.geolocation.getCurrentPosition(this.success, this.error);
+
+    if (localStorage.getItem("uni")) {
+      this.setState({
+        Selectedlist: JSON.parse(localStorage.getItem("uni"))
+      });
+    }
+    if (localStorage.getItem("note")) {
+      this.setState({
+        uni_notes: JSON.parse(localStorage.getItem("note"))
+      });
+    }
   }
 
   componentWillUpdate(nextProps, nextState) {
@@ -73,12 +83,21 @@ class App extends Component {
     localStorage.setItem("note", JSON.stringify(nextState.uni_notes));
   }
 
-  handleClick = props => {
+  handleClick = async props => {
     let { Selectedlist } = this.state;
 
     if (Selectedlist.indexOf(props) === -1) {
       Selectedlist.push(props);
-      this.setState({ Selectedlist });
+      this.setState({ Selectedlist, result: [] });
+
+      let url = opencagedata_forward_geocoding + props;
+      console.log(url);
+      let res = await axios.get(url);
+      console.log(res.data);
+
+      let { results } = res.data;
+
+      this.setState({ foundLocations: results });
     } else {
       alert("Item is already on the list");
     }
@@ -97,21 +116,35 @@ class App extends Component {
   handleSearchChange = e => {
     e.preventDefault();
 
-    let { data } = this.state;
+    let { searchData } = this.state;
     let searchText = e.target.value;
     console.log(searchText);
 
     var options = {
-      keys: ["name", "shortName"],
-      minMatchCharLength: 3,
-      id: "name"
+      keys: ["name", "shortName", "location"],
+      minMatchCharLength: 3
+      // id: "name"
     };
 
-    var fuse = new Fuse(data, options);
+    var fuse = new Fuse(searchData, options);
     let result = fuse.search(searchText);
     console.log(result);
 
     this.setState({ result });
+  };
+
+  updateNote = note => {
+    let { uni_notes } = this.state;
+    console.log("app js ..........", note, uni_notes);
+
+    let index = uni_notes.findIndex(
+      item => item.university === note.university
+    );
+
+    uni_notes.splice(index, 1);
+    uni_notes.push(note);
+
+    this.setState({ uni_notes });
   };
 
   render() {
@@ -137,20 +170,29 @@ class App extends Component {
           <div className="inputContainer">
             <input
               type="search"
-              placeholder="Search University "
+              placeholder="Search University ..."
               className="searchBox"
               autoFocus
-              autoComplete={false}
               onChange={this.handleSearchChange}
+              autoCorrect="false"
+              required
             />
 
             <div className="result-list">
               {result.map(item => (
                 <div
                   className="list-item"
-                  onClick={() => this.handleClick(item)}
+                  onClick={() => this.handleClick(item.name)}
                 >
-                  <p>{item}</p>
+                  <div>
+                    <p style={{ fontWeight: "bold", fontSize: 18 }}>
+                      {item.name}
+                    </p>
+                    <p>{item.location}</p>
+                  </div>
+                  <div>
+                    <NoteAdd titleAccess={`add - ${item.name}`} />
+                  </div>
                 </div>
               ))}
             </div>
@@ -162,12 +204,14 @@ class App extends Component {
             zoom={zoom}
             data={data}
             handleClick={this.handleClick}
+            foundLocations={this.state.foundLocations}
           />
           <CardContainer
             Selectedlist={Selectedlist}
             notes={uni_notes}
             ReceiveNewList={this.ReceiveNewList}
             takeNotes={this.takeNotes}
+            updateNote={this.updateNote}
           />
         </Suspense>
       </MyProvider>

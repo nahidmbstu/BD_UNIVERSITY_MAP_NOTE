@@ -1,0 +1,1161 @@
+[
+  {
+    "name": "University of Dhaka",
+    "shortName": "DU",
+    "BuildYear": "1921",
+    "location": "Dhaka",
+    "division": "Dhaka division",
+    "specialization": "General",
+    "Ph.D.": "Yes"
+  },
+  {
+    "name": "University of Rajshahi",
+    "shortName": "RU",
+    "BuildYear": "1953",
+    "location": "Rajshahi",
+    "division": "Rajshahi division",
+    "specialization": "General",
+    "Ph.D.": "Yes"
+  },
+  {
+    "name": "Bangladesh Agricultural University",
+    "shortName": "BAU",
+    "BuildYear": "1961",
+    "location": "Mymensingh",
+    "division": "Mymensingh division",
+    "specialization": "Agricultural Science",
+    "Ph.D.": "Yes"
+  },
+  {
+    "name": "Bangladesh University of Engineering & Technology",
+    "shortName": "BUET",
+    "BuildYear": "1962",
+    "location": "Dhaka",
+    "division": "Dhaka division",
+    "specialization": "Engineering",
+    "Ph.D.": "Yes"
+  },
+  {
+    "name": "University of Chittagong",
+    "shortName": "CU",
+    "BuildYear": "1966",
+    "location": "Chittagong",
+    "division": "Chittagong division",
+    "specialization": "General",
+    "Ph.D.": "Yes"
+  },
+  {
+    "name": "Jahangirnagar University",
+    "shortName": "JU",
+    "BuildYear": "1970",
+    "location": "Savar, Dhaka",
+    "division": "Dhaka division",
+    "specialization": "General",
+    "Ph.D.": "Yes"
+  },
+  {
+    "name": "Islamic University, Bangladesh",
+    "shortName": "IU",
+    "BuildYear": "1979",
+    "location": "Kushtia",
+    "division": "Khulna division",
+    "specialization": "General & Technological",
+    "Ph.D.": "Yes"
+  },
+  {
+    "name": "Shahjalal University of Science and Technology",
+    "shortName": "SUST",
+    "BuildYear": "1986",
+    "location": "Sylhet",
+    "division": "Sylhet division",
+    "specialization": "Science & Technology",
+    "Ph.D.": "Yes"
+  },
+  {
+    "name": "Khulna University",
+    "shortName": "KU",
+    "BuildYear": "1991",
+    "location": "Khulna",
+    "division": "Khulna division",
+    "specialization": "General",
+    "Ph.D.": "Yes"
+  },
+  {
+    "name": "Bangabandhu Sheikh Mujib Medical University ",
+    "shortName": "BSMMU",
+    "BuildYear": "1998",
+    "location": "Dhaka",
+    "division": "Dhaka division",
+    "specialization": "Medical",
+    "Ph.D.": "Yes"
+  },
+  {
+    "name": "Bangabandhu Sheikh Mujibur Rahman Agricultural University",
+    "shortName": "BSMRAU",
+    "BuildYear": "1998",
+    "location": "Gazipur",
+    "division": "Dhaka division",
+    "specialization": "Agricultural Science",
+    "Ph.D.": "Yes"
+  },
+  {
+    "name": "Hajee Mohammad Danesh Science & Technology University",
+    "shortName": "HSTU",
+    "BuildYear": "1999",
+    "location": "Dinajpur",
+    "division": "Rangpur division",
+    "specialization": "Science & Technology",
+    "Ph.D.": "Yes"
+  },
+  {
+    "name": "Mawlana Bhashani Science and Technology University",
+    "shortName": "MBSTU",
+    "BuildYear": "1999",
+    "location": "Tangail",
+    "division": "Dhaka division",
+    "specialization": "Science & Technology",
+    "Ph.D.": "Yes"
+  },
+  {
+    "name": "Patuakhali Science and Technology University",
+    "shortName": "PSTU",
+    "BuildYear": "2000",
+    "location": "Patuakhali",
+    "division": "Barisal division",
+    "specialization": "Science & Technology",
+    "Ph.D.": "Yes"
+  },
+  {
+    "name": "Sher-e-Bangla Agricultural University",
+    "shortName": "SAU",
+    "BuildYear": "2001",
+    "location": "Dhaka",
+    "division": "Dhaka division",
+    "specialization": "Agricultural Science",
+    "Ph.D.": "Yes"
+  },
+  {
+    "name": "Dhaka University of Engineering & Technology",
+    "shortName": "DUET",
+    "BuildYear": "2003",
+    "location": "Gazipur",
+    "division": "Dhaka division",
+    "specialization": "Engineering",
+    "Ph.D.": "Yes"
+  },
+  {
+    "name": "Rajshahi University of Engineering & Technology",
+    "shortName": "RUET",
+    "BuildYear": "2003",
+    "location": "Rajshahi",
+    "division": "Rajshahi division",
+    "specialization": "Engineering",
+    "Ph.D.": "Yes"
+  },
+  {
+    "name": "Chittagong University of Engineering & Technology",
+    "shortName": "CUET",
+    "BuildYear": "2003",
+    "location": "Chittagong",
+    "division": "Chittagong division",
+    "specialization": "Engineering",
+    "Ph.D.": "Yes"
+  },
+  {
+    "name": "Khulna University of Engineering & Technology",
+    "shortName": "KUET",
+    "BuildYear": "2003",
+    "location": "Khulna",
+    "division": "Khulna division",
+    "specialization": "Engineering",
+    "Ph.D.": "Yes"
+  },
+  {
+    "name": "Jagannath University",
+    "shortName": "JnU",
+    "BuildYear": "2005",
+    "location": "Dhaka",
+    "division": "Dhaka division",
+    "specialization": "General",
+    "Ph.D.": "Yes"
+  },
+  {
+    "name": "Jatiya Kabi Kazi Nazrul Islam University",
+    "shortName": "JKKNIU",
+    "BuildYear": "2005",
+    "location": "Mymensingh",
+    "division": "Mymensingh division",
+    "specialization": "General",
+    "Ph.D.": "Yes"
+  },
+  {
+    "name": "Chittagong Veterinary and Animal Sciences University",
+    "shortName": "CVASU",
+    "BuildYear": "2006",
+    "location": "Chittagong",
+    "division": "Chittagong division",
+    "specialization": "Veterinary Science",
+    "Ph.D.": "Yes"
+  },
+  {
+    "name": "Sylhet Agricultural University",
+    "shortName": "SAU",
+    "BuildYear": "2006",
+    "location": "Sylhet",
+    "division": "Sylhet division",
+    "specialization": "Agricultural Science",
+    "Ph.D.": "Yes"
+  },
+  {
+    "name": "Comilla University",
+    "shortName": "CoU",
+    "BuildYear": "2006",
+    "location": "Comilla",
+    "division": "Chittagong division",
+    "specialization": "General",
+    "Ph.D.": "Yes"
+  },
+  {
+    "name": "Noakhali Science and Technology University",
+    "shortName": "NSTU",
+    "BuildYear": "2006",
+    "location": "Noakhali",
+    "division": "Chittagong division",
+    "specialization": "Science & Technology",
+    "Ph.D.": "Yes"
+  },
+  {
+    "name": "Jessore University of Science & Technology",
+    "shortName": "JUST",
+    "BuildYear": "2008",
+    "location": "Jessore",
+    "division": "Khulna division",
+    "specialization": "Science & Technology",
+    "Ph.D.": "Yes"
+  },
+  {
+    "name": "Pabna University of Science and Technology",
+    "shortName": "PUST",
+    "BuildYear": "2008",
+    "location": "Pabna",
+    "division": "Rajshahi division",
+    "specialization": "Science & Technology",
+    "Ph.D.": "Yes"
+  },
+  {
+    "name": "Bangladesh University of Professionals",
+    "shortName": "BUP",
+    "BuildYear": "2008",
+    "location": "Dhaka",
+    "division": "Dhaka division",
+    "specialization": "General",
+    "Ph.D.": "Yes"
+  },
+  {
+    "name": "Begum Rokeya University",
+    "shortName": "BRU",
+    "BuildYear": "2008",
+    "location": "Rangpur",
+    "division": "Rangpur division",
+    "specialization": "General",
+    "Ph.D.": "Yes"
+  },
+  {
+    "name": "Bangladesh University of Textiles",
+    "shortName": "BUTEX",
+    "BuildYear": "2010",
+    "location": "Dhaka",
+    "division": "Dhaka division",
+    "specialization": "Textile Engineering",
+    "Ph.D.": "Yes"
+  },
+  {
+    "name": "University of Barisal",
+    "shortName": "BU",
+    "BuildYear": "2011",
+    "location": "Barisal",
+    "division": "Barisal division",
+    "specialization": "General",
+    "Ph.D.": "Yes"
+  },
+  {
+    "name": "Bangabandhu Sheikh Mujibur Rahman Science and Technology University",
+    "shortName": "BSMRSTU",
+    "BuildYear": "2011",
+    "location": "Gopalganj",
+    "division": "Dhaka division",
+    "specialization": "Science & Technology",
+    "Ph.D.": "Yes"
+  },
+  {
+    "name": "Bangabandhu Sheikh Mujibur Rahman Maritime University",
+    "shortName": "BSMRMU",
+    "BuildYear": "2014",
+    "location": "Dhaka",
+    "division": "Dhaka division",
+    "specialization": "Maritime",
+    "Ph.D.": "Yes"
+  },
+  {
+    "name": "Rangamati Science and Technology University",
+    "shortName": "RMSTU",
+    "BuildYear": "2014",
+    "location": "Rangamati",
+    "division": "Chittagong division",
+    "specialization": "Science & Technology",
+    "Ph.D.": "Yes"
+  },
+  {
+    "name": "Rabindra University",
+    "shortName": "RUB",
+    "BuildYear": "2017",
+    "location": "Sirajganj",
+    "division": "Rajshahi division",
+    "specialization": "General",
+    "Ph.D.": "No"
+  },
+  {
+    "name": "Bangabandhu Sheikh Mujibur Rahman Digital University",
+    "shortName": "BDU",
+    "BuildYear": "2018",
+    "location": "Gazipur",
+    "division": "Dhaka division",
+    "specialization": "Science, Technology and Engineering",
+    "Ph.D.": "No"
+  },
+  {
+    "name": "Sheikh Hasina University",
+    "shortName": "SHU",
+    "BuildYear": "2018",
+    "location": "Netrokona",
+    "division": "Mymensingh division",
+    "specialization": "General",
+    "Ph.D.": "No"
+  },
+  {
+    "name": "Bangamata Sheikh Fojilatunnesa Mujib Science & Technology University",
+    "shortName": "BSFMSTU",
+    "BuildYear": "2018",
+    "location": "Jamalpur",
+    "division": "Mymensingh division",
+    "specialization": "Science, Technology and Engineering",
+    "Ph.D.": "No"
+  },
+  {
+    "name": "University",
+    "shortName": "shortName",
+    "BuildYear": "BuildYear[c][d]",
+    "location": "Location",
+    "division": "Division",
+    "specialization": "Specialization",
+    "Ph.D.": "PhD granting"
+  },
+  {
+    "name": "Gono Bishwabidyalay",
+    "shortName": "GB",
+    "BuildYear": "1996",
+    "location": "Dhaka",
+    "division": "Dhaka Division",
+    "specialization": "General",
+    "Ph.D.": "Yes"
+  },
+  {
+    "name": "Ahsanullah University of Science and Technology",
+    "shortName": "AUST",
+    "BuildYear": "1995",
+    "location": "Dhaka",
+    "division": "Dhaka Division",
+    "specialization": "Engineering",
+    "Ph.D.": "No"
+  },
+  {
+    "name": "BRAC University",
+    "shortName": "BRAC",
+    "BuildYear": "2001",
+    "location": "Dhaka",
+    "division": "Dhaka Division",
+    "specialization": "General",
+    "Ph.D.": "No"
+  },
+  {
+    "name": "East West University",
+    "shortName": "EWU",
+    "BuildYear": "1996",
+    "location": "Dhaka",
+    "division": "Dhaka Division",
+    "specialization": "General",
+    "Ph.D.": "No"
+  },
+  {
+    "name": "North South University",
+    "shortName": "NSU",
+    "BuildYear": "1992",
+    "location": "Dhaka",
+    "division": "Dhaka Division",
+    "specialization": "General",
+    "Ph.D.": "No"
+  },
+  {
+    "name": "American International University-Bangladesh",
+    "shortName": "AIUB",
+    "BuildYear": "1994",
+    "location": "Dhaka",
+    "division": "Dhaka Division",
+    "specialization": "General",
+    "Ph.D.": "No"
+  },
+  {
+    "name": "Independent University, Bangladesh",
+    "shortName": "IUB",
+    "BuildYear": "1993",
+    "location": "Dhaka",
+    "division": "Dhaka Division",
+    "specialization": "General",
+    "Ph.D.": "No"
+  },
+  {
+    "name": "Bangladesh University of Business and Technology",
+    "shortName": "BUBT",
+    "BuildYear": "2003",
+    "location": "Dhaka",
+    "division": "Dhaka Division",
+    "specialization": "Science and technology",
+    "Ph.D.": "No"
+  },
+  {
+    "name": "Dhaka International University",
+    "shortName": "DIU",
+    "BuildYear": "1995",
+    "location": "Dhaka",
+    "division": "Dhaka Division",
+    "specialization": "General",
+    "Ph.D.": "No"
+  },
+  {
+    "name": "Hamdard University Bangladesh",
+    "shortName": "HUB",
+    "BuildYear": "2012",
+    "location": "Dhaka",
+    "division": "Dhaka Division",
+    "specialization": "General",
+    "Ph.D.": "No"
+  },
+  {
+    "name": "International Islamic University, Chittagong",
+    "shortName": "IIUC",
+    "BuildYear": "1995",
+    "location": "Chittagong",
+    "division": "Chittagong",
+    "specialization": "General",
+    "Ph.D.": "No"
+  },
+  {
+    "name": "BGC Trust University Bangladesh",
+    "shortName": "BGCTUB",
+    "BuildYear": "2001",
+    "location": "Chittagong",
+    "division": "Chittagong Division",
+    "specialization": "General",
+    "Ph.D.": "No"
+  },
+  {
+    "name": "Chittagong Independent University (CIU)",
+    "shortName": "CIU",
+    "BuildYear": "1999",
+    "location": "Chittagong",
+    "division": "Chittagong Division",
+    "specialization": "General",
+    "Ph.D.": "No"
+  },
+  {
+    "name": "University of Science & Technology Chittagong",
+    "shortName": "USTC",
+    "BuildYear": "1992",
+    "location": "Chittagong",
+    "division": "Chittagong Division",
+    "specialization": "Science and technology",
+    "Ph.D.": "No"
+  },
+  {
+    "name": "East Delta University",
+    "shortName": "EDU",
+    "BuildYear": "2006",
+    "location": "Chittagong",
+    "division": "Chittagong Division",
+    "specialization": "General",
+    "Ph.D.": "No"
+  },
+  {
+    "name": "Bangladesh Army University of Science and Technology",
+    "shortName": "BAUST",
+    "BuildYear": "2015",
+    "location": "Saidpur",
+    "division": "Rangpur Division",
+    "specialization": "Engineering and Technology",
+    "Ph.D.": "No"
+  },
+  {
+    "name": "Bangladesh Army International University of Science & Technology",
+    "shortName": "BAIUST",
+    "BuildYear": "2015",
+    "location": "Comilla",
+    "division": "Chittagong Division",
+    "specialization": "Science and Technology",
+    "Ph.D.": "No"
+  },
+  {
+    "name": "Britannia University",
+    "shortName": "BU",
+    "BuildYear": "2010",
+    "location": "Comilla",
+    "division": "Chittagong Division",
+    "specialization": "General",
+    "Ph.D.": "No"
+  },
+  {
+    "name": "CCN University of Science & Technology",
+    "shortName": "CCNUST",
+    "BuildYear": "2015",
+    "location": "Comilla",
+    "division": "Chittagong Division",
+    "specialization": "Science and Technology",
+    "Ph.D.": "No"
+  },
+  {
+    "name": "Feni University",
+    "shortName": "FU",
+    "BuildYear": "2010",
+    "location": "Feni",
+    "division": "Chittagong Division",
+    "specialization": "General",
+    "Ph.D.": "No"
+  },
+  {
+    "name": "Bangladesh Army University of Engineering & Technology",
+    "shortName": "BAUET",
+    "BuildYear": "2015",
+    "location": "Natore",
+    "division": "Rajshahi Division",
+    "specialization": "Engineering and Technology",
+    "Ph.D.": "No"
+  },
+  {
+    "name": "Premier University, Chittagong",
+    "shortName": "PU",
+    "BuildYear": "2001",
+    "location": "Chittagong",
+    "division": "Chittagong Division",
+    "specialization": "General",
+    "Ph.D.": "No"
+  },
+  {
+    "name": "Exim Bank Agricultural University Bangladesh",
+    "shortName": "EBAUB",
+    "BuildYear": "2013",
+    "location": "Chapainawabganj",
+    "division": "Rajshahi Division",
+    "specialization": "Agricultural",
+    "Ph.D.": "No"
+  },
+  {
+    "name": "Southern University, Bangladesh",
+    "shortName": "SUB",
+    "BuildYear": "2001",
+    "location": "Chittagong",
+    "division": "Chittagong Division",
+    "specialization": "General",
+    "Ph.D.": "No"
+  },
+  {
+    "name": "Port City International University",
+    "shortName": "PCIU",
+    "BuildYear": "2012",
+    "location": "Chittagong",
+    "division": "Chittagong Division",
+    "specialization": "General",
+    "Ph.D.": "No"
+  },
+  {
+    "name": "Coxs Bazar International University",
+    "shortName": "CBIU",
+    "BuildYear": "2013",
+    "location": "Cox's Bazar",
+    "division": "Chittagong Division",
+    "specialization": "General",
+    "Ph.D.": "No"
+  },
+  {
+    "name": "Notre Dame University Bangladesh",
+    "shortName": "NDUB",
+    "BuildYear": "2013",
+    "location": "Dhaka",
+    "division": "Dhaka Division",
+    "specialization": "General"
+  },
+  {
+    "name": "Asian University of Bangladesh",
+    "shortName": "AUB",
+    "BuildYear": "1996",
+    "location": "Dhaka",
+    "division": "Dhaka Division",
+    "specialization": "General",
+    "Ph.D.": "No"
+  },
+  {
+    "name": "Asa University Bangladesh",
+    "shortName": "ASAUB",
+    "BuildYear": "2006",
+    "location": "Dhaka",
+    "division": "Dhaka Division",
+    "specialization": "General",
+    "Ph.D.": "No"
+  },
+  {
+    "name": "Atish Dipankar University of Science and Technology",
+    "shortName": "ADUST",
+    "BuildYear": "2004",
+    "location": "Dhaka",
+    "division": "Dhaka Division",
+    "specialization": "Science and technology",
+    "Ph.D.": "No"
+  },
+  {
+    "name": "Bangladesh Islami University",
+    "shortName": "BIU",
+    "BuildYear": "2006",
+    "location": "Dhaka",
+    "division": "Dhaka Division",
+    "specialization": "General",
+    "Ph.D.": "No"
+  },
+  {
+    "name": "Bangladesh University",
+    "shortName": "BU",
+    "BuildYear": "2001",
+    "location": "Dhaka",
+    "division": "Dhaka Division",
+    "specialization": "General",
+    "Ph.D.": "No"
+  },
+  {
+    "name": "Central Women's University",
+    "shortName": "CWU",
+    "BuildYear": "1993",
+    "location": "Dhaka",
+    "division": "Dhaka Division",
+    "specialization": "Women's studies",
+    "Ph.D.": "No"
+  },
+  {
+    "name": "City University, Bangladesh",
+    "shortName": "CUB",
+    "BuildYear": "2002",
+    "location": "Dhaka",
+    "division": "Dhaka Division",
+    "specialization": "General",
+    "Ph.D.": "No"
+  },
+  {
+    "name": "Daffodil International University",
+    "shortName": "DIU",
+    "BuildYear": "2002",
+    "location": "Dhaka",
+    "division": "Dhaka Division",
+    "specialization": "General",
+    "Ph.D.": "No"
+  },
+  {
+    "name": "Eastern University, Bangladesh",
+    "shortName": "EU",
+    "BuildYear": "2003",
+    "location": "Dhaka",
+    "division": "Dhaka Division",
+    "specialization": "General",
+    "Ph.D.": "No"
+  },
+  {
+    "name": "Green University of Bangladesh",
+    "shortName": "GUB",
+    "BuildYear": "2002",
+    "location": "Dhaka",
+    "division": "Dhaka Division",
+    "specialization": "General",
+    "Ph.D.": "No"
+  },
+  {
+    "name": "IBAIS University",
+    "shortName": "IU",
+    "BuildYear": "2002",
+    "location": "Dhaka",
+    "division": "Dhaka Division",
+    "specialization": "General",
+    "Ph.D.": "No"
+  },
+  {
+    "name": "Sonargaon University",
+    "shortName": "SU",
+    "BuildYear": "2012",
+    "location": "Dhaka",
+    "division": "Dhaka Division",
+    "specialization": "Engineering & Technology, Business,Law",
+    "Ph.D.": "No"
+  },
+  {
+    "name": "International University of Business Agriculture and Technology",
+    "shortName": "IUBAT",
+    "BuildYear": "1991",
+    "location": "Dhaka",
+    "division": "Dhaka Division",
+    "specialization": "General",
+    "Ph.D.": "No"
+  },
+  {
+    "name": "Manarat International University",
+    "shortName": "MIU",
+    "BuildYear": "2001",
+    "location": "Dhaka",
+    "division": "Dhaka Division",
+    "specialization": "General",
+    "Ph.D.": "No"
+  },
+  {
+    "name": "Millennium University",
+    "shortName": "MU",
+    "BuildYear": "2003",
+    "location": "Dhaka",
+    "division": "Dhaka Division",
+    "specialization": "General",
+    "Ph.D.": "No"
+  },
+  {
+    "name": "Northern University, Bangladesh",
+    "shortName": "NUB",
+    "BuildYear": "2002",
+    "location": "Dhaka",
+    "division": "Dhaka Division",
+    "specialization": "General",
+    "Ph.D.": "No"
+  },
+  {
+    "name": "North Western University, Bangladesh",
+    "shortName": "NWU",
+    "BuildYear": "2012",
+    "location": "Khulna",
+    "division": "Khulna Division",
+    "specialization": "General",
+    "Ph.D.": "No"
+  },
+  {
+    "name": "The University of Comilla, Bangladesh",
+    "shortName": "UNIC",
+    "BuildYear": "1995",
+    "location": "Uttara, Dhaka- 1230",
+    "division": "Dhaka",
+    "specialization": "Science and Technology",
+    "Ph.D.": "No"
+  },
+  {
+    "name": "People's University of Bangladesh",
+    "shortName": "PUB",
+    "BuildYear": "1996",
+    "location": "Dhaka",
+    "division": "Dhaka Division",
+    "specialization": "General",
+    "Ph.D.": "No"
+  },
+  {
+    "name": "Presidency University",
+    "shortName": "PU",
+    "BuildYear": "2003",
+    "location": "Dhaka",
+    "division": "Dhaka Division",
+    "specialization": "Science & Technology",
+    "Ph.D.": "No"
+  },
+  {
+    "name": "Pundra University of Science and Technology",
+    "shortName": "PUST",
+    "BuildYear": "2001",
+    "location": "Bogra",
+    "division": "Rajshahi Division",
+    "specialization": "Science & Technology",
+    "Ph.D.": "No"
+  },
+  {
+    "name": "Prime University",
+    "shortName": "PU",
+    "BuildYear": "2002",
+    "location": "Dhaka",
+    "division": "Dhaka Division",
+    "specialization": "General",
+    "Ph.D.": "No"
+  },
+  {
+    "name": "European University of Bangladesh",
+    "shortName": "EUB",
+    "BuildYear": "2012",
+    "location": "Dhaka",
+    "division": "Dhaka Division",
+    "specialization": "General",
+    "Ph.D.": "No"
+  },
+  {
+    "name": "Primeasia University",
+    "shortName": "PAU",
+    "BuildYear": "2003",
+    "location": "Dhaka",
+    "division": "Dhaka Division",
+    "specialization": "General",
+    "Ph.D.": "No"
+  },
+  {
+    "name": "Queens University",
+    "shortName": "QU",
+    "BuildYear": "1996",
+    "location": "Dhaka",
+    "division": "Dhaka Division",
+    "specialization": "General",
+    "Ph.D.": "No"
+  },
+  {
+    "name": "Rajshahi Science & Technology University",
+    "shortName": "RSTU",
+    "BuildYear": "2013",
+    "location": "Rajshahi",
+    "division": "Rajshahi Division",
+    "specialization": "Science and Technology",
+    "Ph.D.": "No"
+  },
+  {
+    "name": "Royal University of Dhaka",
+    "shortName": "RUD",
+    "BuildYear": "2003",
+    "location": "Dhaka",
+    "division": "Dhaka Division",
+    "specialization": "General",
+    "Ph.D.": "No"
+  },
+  {
+    "name": "Shanto-Mariam University of Creative Technology",
+    "shortName": "SMUCT",
+    "BuildYear": "2003",
+    "location": "Dhaka",
+    "division": "Dhaka Division",
+    "specialization": "Creative technology",
+    "Ph.D.": "No"
+  },
+  {
+    "name": "Southeast University",
+    "shortName": "SEU",
+    "BuildYear": "2002",
+    "location": "Dhaka",
+    "division": "Dhaka and Sylhet Division",
+    "specialization": "General",
+    "Ph.D.": "No"
+  },
+  {
+    "name": "Stamford University Bangladesh",
+    "shortName": "SU",
+    "BuildYear": "2002",
+    "location": "Dhaka",
+    "division": "Dhaka Division",
+    "specialization": "General",
+    "Ph.D.": "No"
+  },
+  {
+    "name": "State University of Bangladesh",
+    "shortName": "SUB",
+    "BuildYear": "2002",
+    "location": "Dhaka",
+    "division": "Dhaka Division",
+    "specialization": "General",
+    "Ph.D.": "No"
+  },
+  {
+    "name": "United International University",
+    "shortName": "UIU",
+    "BuildYear": "2003",
+    "location": "Dhaka",
+    "division": "Dhaka Division",
+    "specialization": "General",
+    "Ph.D.": "No"
+  },
+  {
+    "name": "University of Asia Pacific (Bangladesh)",
+    "shortName": "UAP",
+    "BuildYear": "1996",
+    "location": "Dhaka",
+    "division": "Dhaka Division",
+    "specialization": "General",
+    "Ph.D.": "No"
+  },
+  {
+    "name": "University of Development Alternative",
+    "shortName": "UODA",
+    "BuildYear": "2002",
+    "location": "Dhaka",
+    "division": "Dhaka Division",
+    "specialization": "General",
+    "Ph.D.": "No"
+  },
+  {
+    "name": "University of Information Technology and Sciences",
+    "shortName": "UITS",
+    "BuildYear": "2003",
+    "location": "Dhaka",
+    "division": "Dhaka Division",
+    "specialization": "General",
+    "Ph.D.": "No"
+  },
+  {
+    "name": "University of Liberal Arts Bangladesh",
+    "shortName": "ULAB",
+    "BuildYear": "2004",
+    "location": "Dhaka",
+    "division": "Dhaka Division",
+    "specialization": "Media studies and journalism",
+    "Ph.D.": "No"
+  },
+  {
+    "name": "Fareast International University",
+    "shortName": "FIU",
+    "BuildYear": "2013",
+    "location": "Dhaka",
+    "division": "Dhaka Division",
+    "specialization": "General",
+    "Ph.D.": "No"
+  },
+  {
+    "name": "University of South Asia, Bangladesh",
+    "shortName": "USAB",
+    "BuildYear": "2003",
+    "location": "Dhaka",
+    "division": "Dhaka Division",
+    "specialization": "General",
+    "Ph.D.": "No"
+  },
+  {
+    "name": "Uttara University",
+    "shortName": "UU",
+    "BuildYear": "2003",
+    "location": "Dhaka",
+    "division": "Dhaka Division",
+    "specialization": "General",
+    "Ph.D.": "No"
+  },
+  {
+    "name": "Victoria University of Bangladesh",
+    "shortName": "VUB",
+    "BuildYear": "2003",
+    "location": "Dhaka",
+    "division": "Dhaka Division",
+    "specialization": "General",
+    "Ph.D.": "No"
+  },
+  {
+    "name": "Varendra University",
+    "shortName": "VU",
+    "BuildYear": "2012",
+    "location": "Rajshahi",
+    "division": "Rajshahi Division",
+    "specialization": "General",
+    "Ph.D.": "No"
+  },
+  {
+    "name": "World University of Bangladesh",
+    "shortName": "WUB",
+    "BuildYear": "2003",
+    "location": "Dhaka",
+    "division": "Dhaka Division",
+    "specialization": "General",
+    "Ph.D.": "No"
+  },
+  {
+    "name": "Leading University",
+    "shortName": "LU",
+    "BuildYear": "2002",
+    "location": "Sylhet",
+    "division": "Sylhet and Dhaka Division",
+    "specialization": "General",
+    "Ph.D.": "No"
+  },
+  {
+    "name": "Metropolitan University",
+    "shortName": "MU",
+    "BuildYear": "2003",
+    "location": "Sylhet",
+    "division": "Sylhet Division",
+    "specialization": "General",
+    "Ph.D.": "No"
+  },
+  {
+    "name": "North East University Bangladesh",
+    "shortName": "NEUB",
+    "BuildYear": "2012",
+    "location": "Sylhet",
+    "division": "Sylhet Division",
+    "specialization": "General",
+    "Ph.D.": "No"
+  },
+  {
+    "name": "Sylhet International University",
+    "shortName": "SIU",
+    "BuildYear": "2001",
+    "location": "Sylhet",
+    "division": "Sylhet Division",
+    "specialization": "General",
+    "Ph.D.": "No"
+  },
+  {
+    "name": "Khwaja Yunus Ali University",
+    "shortName": "KYAU",
+    "BuildYear": "2010",
+    "location": "Enayetpur, Sirajgonj",
+    "division": "Rajshahi Division",
+    "specialization": "General",
+    "Ph.D.": "No"
+  },
+  {
+    "name": "Global University Bangladesh",
+    "shortName": "GUB",
+    "BuildYear": "2015",
+    "location": "Barisal",
+    "division": "Barisal Division",
+    "specialization": "General",
+    "Ph.D.": "No"
+  },
+  {
+    "name": "University of Creative Technology Chittagong",
+    "shortName": "UCTC",
+    "BuildYear": "2015",
+    "location": "Chittagong",
+    "division": "Chittagong Division",
+    "specialization": "General",
+    "Ph.D.": "No"
+  },
+  {
+    "name": "Z H Sikder University of Science & Technology",
+    "shortName": "ZHSUST",
+    "BuildYear": "2012",
+    "location": "Shariatpur",
+    "division": "Dhaka Division",
+    "specialization": "Science & Technology",
+    "Ph.D.": "No"
+  },
+  {
+    "name": "Central University of Science and Technology",
+    "shortName": "CUST",
+    "BuildYear": "2016",
+    "location": "Dhaka",
+    "division": "Dhaka Division",
+    "specialization": "Science & Technology",
+    "Ph.D.": "No"
+  },
+  {
+    "name": "Canadian University of Bangladesh",
+    "shortName": "CUST",
+    "BuildYear": "2015",
+    "location": "Dhaka",
+    "division": "Dhaka Division",
+    "specialization": "General",
+    "Ph.D.": "No"
+  },
+  {
+    "name": "First Capital University of Bangladesh",
+    "shortName": "FCUB",
+    "BuildYear": "2012",
+    "location": "Chuadanga",
+    "division": "Khulna Division",
+    "specialization": "General",
+    "Ph.D.": "No"
+  },
+  {
+    "name": "Ishaka International University",
+    "shortName": "IIUB",
+    "BuildYear": "2012",
+    "location": "Kishoreganj",
+    "division": "Dhaka Division",
+    "specialization": "General",
+    "Ph.D.": "No"
+  },
+  {
+    "name": "Northern University of Business & Technology, Khulna",
+    "shortName": "NUBT",
+    "BuildYear": "2015",
+    "location": "Khulna",
+    "division": "Khulna Division",
+    "specialization": "Business Technology",
+    "Ph.D.": "No"
+  },
+  {
+    "name": "North Bengal International University",
+    "shortName": "NBIU",
+    "BuildYear": "2013",
+    "location": "Rajshahi",
+    "division": "Rajshahi Division",
+    "specialization": "General",
+    "Ph.D.": "No"
+  },
+  {
+    "name": "Ranada Prasad Shaha University",
+    "shortName": "RPSU",
+    "BuildYear": "2013",
+    "location": "Naryanganj",
+    "division": "Dhaka Division",
+    "specialization": "General",
+    "Ph.D.": "No"
+  },
+  {
+    "name": "Bangladesh University of Health Sciences",
+    "shortName": "BUHS ",
+    "BuildYear": "2012",
+    "location": "Dhaka",
+    "division": "Dhaka Division",
+    "specialization": "Health Sciences",
+    "Ph.D.": "No"
+  },
+  {
+    "name": "BGMEA University of Fashion & Technology",
+    "shortName": "BUFT",
+    "BuildYear": "1999",
+    "location": "Dhaka",
+    "division": "Dhaka Division",
+    "specialization": "Textile Engineering",
+    "Ph.D.": "No"
+  },
+  {
+    "name": "Islamic University of Technology",
+    "shortName": "IUT",
+    "BuildYear": "1981",
+    "location": "Gazipur",
+    "division": "Engineering and Technology (Muslim students only)"
+  },
+  {
+    "name": "Asian University for Women",
+    "shortName": "AUW",
+    "BuildYear": "2008",
+    "location": "Chittagong",
+    "division": "(Female students only)"
+  },
+  {
+    "name": "Bangladesh Open University",
+    "shortName": "BOU",
+    "BuildYear": "1992",
+    "location": "Gazipur",
+    "division": "General"
+  },
+  {
+    "name": "National University of Bangladesh",
+    "shortName": "NU",
+    "BuildYear": "1992",
+    "location": "Gazipur",
+    "division": "General"
+  },
+  {
+    "name": "Islamic Arabic University",
+    "shortName": "IAB",
+    "BuildYear": "2013",
+    "location": "Dhaka",
+    "division": "Islamic"
+  }
+]

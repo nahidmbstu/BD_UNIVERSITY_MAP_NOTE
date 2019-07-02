@@ -10,11 +10,7 @@ class MarkerComponent extends React.Component {
   render() {
     let { name, location, shortName, Place } = this.props.data;
     return (
-      <Marker
-        position={location}
-        icon={shortName === "MBSTU" ? Love : myIcon}
-        className="MyMarker"
-      >
+      <Marker position={location} icon={myIcon} className="MyMarker">
         <Popup>
           <div className="MyPopup" onClick={() => this.props.onClick(name)}>
             <p>{name}</p>

@@ -2,115 +2,14 @@ import React, { Component } from "react";
 import "./App.css";
 
 import ListItem from "@material-ui/core/ListItem";
-
 import ListItemSecondaryAction from "@material-ui/core/ListItemSecondaryAction";
 import ListItemText from "@material-ui/core/ListItemText";
 import DeleteIcon from "@material-ui/icons/Delete";
-import Input from "@material-ui/core/Input";
-import Card from "@material-ui/core/Card";
-import CardContent from "@material-ui/core/CardContent";
 import IconButton from "@material-ui/core/IconButton";
 
-import AddIcon from "@material-ui/icons/Add";
-import UpdateIcon from "@material-ui/icons/Update";
-
-import Fab from "@material-ui/core/Fab";
-import Modal from "react-responsive-modal";
+import SHOW_MODAL from "./ShowModal";
 
 let receive_data = localStorage.getItem("University");
-
-class MODAL extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      note: "",
-      fullNote: {}
-    };
-  }
-
-  componentDidMount() {
-    console.log(".........", this.props.notes);
-  }
-
-  handleChange = e => {
-    this.setState({
-      note: e.target.value
-    });
-  };
-
-  handleClick = name => {
-    console.log("------------", this.state.note);
-    let note = { university: name, note: this.state.note };
-    this.setState({ fullNote: note }, () => {
-      this.props.takeNotes(note);
-    });
-  };
-
-  onCloseModal = () => {
-    this.setState({ note: "" });
-    this.props.onCloseModal();
-  };
-
-  render() {
-    let { open, name, notes } = this.props;
-
-    let find_note = notes.find(item => item.university === name);
-    console.log("..........................-------------", find_note);
-
-    return (
-      <Modal open={open} onClose={this.onCloseModal}>
-        <div>
-          <h2 className="uni_name">{name}</h2>
-          {find_note ? null : (
-            <div style={{ display: "flex", margin: 20 }}>
-              <Input
-                placeholder="Add a Note"
-                inputProps={{
-                  "aria-label": "Description"
-                }}
-                fullWidth
-                value={this.state.note}
-                onChange={this.handleChange}
-              />
-              <Fab
-                color="secondary"
-                aria-label="Add"
-                onClick={() => this.handleClick(name)}
-              >
-                <AddIcon />
-              </Fab>
-            </div>
-          )}
-
-          <Card>
-            <CardContent>
-              <div>
-                {find_note === undefined ? (
-                  <p>No Note Found</p>
-                ) : (
-                  <div
-                    style={{ display: "flex", justifyContent: "space-between" }}
-                  >
-                    <p>{find_note.note}</p>
-                    <div className="update_fab">
-                      <Fab
-                        color="secondary"
-                        aria-label="Add"
-                        onClick={() => {}}
-                      >
-                        <UpdateIcon />
-                      </Fab>
-                    </div>
-                  </div>
-                )}
-              </div>
-            </CardContent>
-          </Card>
-        </div>
-      </Modal>
-    );
-  }
-}
 
 class MyItem extends Component {
   constructor(props) {
@@ -131,10 +30,7 @@ class MyItem extends Component {
   };
 
   componentDidMount() {
-    console.log(
-      "oooooooooooooooooooooooooooooooooooooooooo",
-      JSON.parse(receive_data)
-    );
+    console.log(JSON.parse(receive_data));
   }
 
   DeleteItem = item => {
@@ -149,15 +45,20 @@ class MyItem extends Component {
 
   render() {
     const { open } = this.state;
+
+    let MyModal = (
+      <SHOW_MODAL
+        open={open}
+        onCloseModal={this.onCloseModal}
+        name={this.state.selected}
+        takeNotes={this.takeNotes}
+        notes={this.props.notes}
+        updateNote={this.props.updateNote}
+      />
+    );
     return (
       <div>
-        <MODAL
-          open={open}
-          onCloseModal={this.onCloseModal}
-          name={this.state.selected}
-          takeNotes={this.takeNotes}
-          notes={this.props.notes}
-        />
+        {MyModal}
         {this.props.Selectedlist.map(i => (
           <ListItem className="MyItem">
             <ListItemText
